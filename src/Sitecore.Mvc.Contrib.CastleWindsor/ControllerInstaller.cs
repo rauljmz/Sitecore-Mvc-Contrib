@@ -36,7 +36,7 @@ namespace Sitecore.Mvc.Contrib.CastleWindsor
         /// <returns></returns>
         private BasedOnDescriptor FindControllers()
         {
-            return AllTypes.FromAssembly(_controllerAssembly).BasedOn<SitecoreController>();
+            return Types.FromAssembly(_controllerAssembly).BasedOn<SitecoreController>();
         }
     }
 }
