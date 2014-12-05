@@ -128,7 +128,6 @@
     <Content Include="tools\Sitecore.NuGet.1.0.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="serialization\master\sitecore\system\Settings\Validation Rules\Item Rules\MVC.item" />
     <None Include="serialization\master\sitecore\system\Settings\Validation Rules\Item Rules\MVC\Controller Rendering Validator.item" />
